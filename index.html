@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Solution - 3ECA</title>
+    <link rel="icon" href="./onda.ico" type="image/x-ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <link rel="stylesheet" shref="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/javascript/carregar.js" defer></script>
+    <script src="assets/javascript/apagar.js" defer></script>
+    <script src="assets/javascript/stats.js" defer></script>
+    <script src="assets/javascript/script.js"></script>
+    <script src="assets/javascript/busca.js" defer></script> 
+</head>
+<body>
+
+<main>
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="assets/img/logo.png">
+            </a>
+        </div>
+
+        <a href="form.html"><button class="btn">Cadastrar Viagens</button></a>
+    </nav>
+
+    <header class="container space">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <H1><span>Global</span> Solution</H1>
+            <p style="color:white; text-align: justify;">
+                Nesse Projeto, Vamos utilizar esse Website contendo um formulário de cadastro de viagens e uma tela de consulta, 
+                o intuito desse site é o registro das viagens para que a aplicação realmente ajude o projeto de limpeza dos oceanos
+            </p>
+            <div class="espaco">
+                <a href="form.html"><button class="btn">Cadastrar viagens</button></a>
+                <a href="consulta.html"><button class="btnblack">Consultar viagens</button></a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="assets/img/fiap.png">
+        </div>
+    </header>
+</main>
+
+
+
+<section class="container">
+    <div style="display: flex; justify-content: space-between;">
+        <h1 class="header h1cadastro">Viagens Cadastradas</h1>
+        <a href="consulta.html"><button class="" style="background-color: rgba(240, 248, 255, 0); border-color: white;">Consultar Viagens</button></a>
+    </div>
+    <br>
+
+    <input type="text" id="buscaInput" placeholder="Buscar Viagens Pendentes...">
+    
+    <section class="grid" id="lista"></section>
+</section>
+
+
+
+<section class="container">
+    <h1 class="header h1cadastro">Integrantes do grupo</h1>
+
+    <div class="integrantes">
+        <div class="card">
+            <div class="content">
+                <h4>João Ortega Cabral Olim - RM: 94163</h4>
+                <img src="assets/img/olim.png" alt="">
+            </div>
+            <button class="btn">Acessar o GitHub</button>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h4>Rafael Taborda Rodrigues - RM: 94588</h4>
+                <img src="assets/img/taborda.png" alt="">
+            </div>
+            <button class="btn">Acessar o GitHub</button>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h4>Allan Huang - RM: 93400</h4>
+                <img src="assets/img/allan.png" style="width: 100%;" alt="">
+            </div>
+            <button class="btn">Acessar o GitHub</button>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

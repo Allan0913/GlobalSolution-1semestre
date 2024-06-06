@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Solution - 3ECA</title>
+    <link rel="icon" href="./onda.ico" type="image/x-ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <link rel="stylesheet" shref="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/javascript/carregar.js" defer></script>
+    <script src="assets/javascript/apagar.js" defer></script>
+    <script src="assets/javascript/stats.js" defer></script>
+    <script src="assets/javascript/script.js"></script>
+    <script src="assets/javascript/busca.js" defer></script>
+</head>
+
+<body style="background-color: #69f0c7;
+                background-image:
+                radial-gradient(at 9% 89%, rgb(172, 124, 248) 0px, transparent 50%),
+                radial-gradient(at 72% 6%, rgb(38, 150, 241) 0px, transparent 50%),
+                radial-gradient(at 24% 19%, rgb(129, 210, 248) 0px, transparent 50%),
+                radial-gradient(at 65% 6%, rgb(52, 161, 175) 0px, transparent 50%),
+                radial-gradient(at 20% 98%, rgb(97, 229, 207) 0px, transparent 50%),
+                radial-gradient(at 44% 9%, rgb(62, 172, 206) 0px, transparent 50%),
+                radial-gradient(at 10% 9%, rgb(99, 118, 222) 0px, transparent 50%);
+                min-height: 100vh;">
+
+
+    <section class="container">
+        <div style="display: flex; justify-content: space-between; ">
+            <a href="index.html"><button style="border-radius: 10px;"><</button></a>
+            <h1 class="header h1cadastro">Consultas de Viagens</h1>
+
+        </div>
+            <br>
+            
+        <section class="grid" style="padding: 2vh;">
+            <article id="stats-pending">
+                <header style="background-color: rgb(80, 82, 207); color: black;">Viagens Pendentes</header>
+                <span>
+                    10
+                </span>
+            </article>
+            <article id="stats-done">
+                <header style="background-color: rgb(83, 211, 158); color: black;">Viagens Concluídas</header>
+                <span>
+                    10
+                </span>
+            </article>
+
+            
+        </section>
+        <input type="text" id="buscaInput" placeholder="Buscar Viagens Pendentes...">
+        <section class="grid" id="lista"></section>
+
+    </section>
+
+
+
+    
+</body>
+</html>

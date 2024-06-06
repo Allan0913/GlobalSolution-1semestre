@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Solution - 3ECA</title>
+    <link rel="icon" href="./onda.ico" type="image/x-ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <link rel="stylesheet" shref="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"/>
+    <script src="assets/javascript/cadastrar.js"></script>
+</head>
+<body style=
+            "color: #fff;
+            background-color: #69f0c7;
+            background-image:
+            radial-gradient(at 9% 89%, rgb(124, 248, 141) 0px, transparent 50%),
+            radial-gradient(at 72% 6%, rgb(95, 231, 190) 0px, transparent 50%),
+            radial-gradient(at 24% 19%, rgb(129, 210, 248) 0px, transparent 50%),
+            radial-gradient(at 65% 6%, rgb(52, 161, 175) 0px, transparent 50%),
+            radial-gradient(at 20% 98%, rgb(97, 229, 207) 0px, transparent 50%),
+            radial-gradient(at 44% 9%, rgb(140, 253, 155) 0px, transparent 50%),
+            radial-gradient(at 10% 9%, rgb(99, 118, 222) 0px, transparent 50%);
+            min-height: 100vh;"
+            
+>
+
+    <main>
+        <section class="container">
+
+            <div style="display: flex; justify-content: space-between;">
+                <a href="index.html"><button><</button></a>
+                <h1 class="header h1cadastro">Cadastrar Viagens</h1>
+
+            </div>
+    
+    
+        
+
+    
+        </section>
+
+        <article class="container" style="padding: 2vh;">
+                <label for="">Lugar da Viagem:</label>
+
+                <input  
+                    aria-describedby="erro-titulo"
+                    type="text" 
+                    id="titulo" 
+
+                >
+                <small id="erro-titulo"></small>
+                <label for="">Objetivo da viagem:</label>
+                <input 
+                    aria-describedby="erro-descricao"
+                    type="text" 
+                    id="descricao" 
+
+                    >
+                    <small id="erro-descricao"></small>
+                    
+                <label for="">Quantidades de pessoas:</label>    
+                <input 
+                    aria-describedby="erro-pessoas"
+                    type="number" 
+                    id="pessoas" 
+                    value="1"
+                >
+                <small id="erro-pessoas"></small>
+
+                <label for="">Data:</label>    
+                <input 
+                    aria-describedby="erro-data"
+                    type="date" 
+                    id="data" 
+
+                >
+                <small id="erro-data"></small>
+
+                <div>
+                    <a role="button" class="outline secondary" href="index.html">cancelar</a>
+                    <button onclick="cadastrar()">salvar</button>
+                </div>
+
+        </article>
+
+    </main>
+    
+</body>
+</html>
